@@ -1,0 +1,7 @@
+repos:
+  - repo: https://github.com/returntocorp/semgrep
+    rev: v1.42.0  # Use latest stable Semgrep release
+    hooks:
+      - id: semgrep
+        args:
+          - --config=p/ci  # Quick scan preset rules

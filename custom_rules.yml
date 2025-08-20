@@ -1,0 +1,7 @@
+rules:
+  aws_secret_access_key:
+    description: AWS secret key
+    regex: "AKIA[0-9A-Z]{16}"
+  password_assignment:
+    description: Password assignment
+    regex: "(?i)password\\s*=\\s*.+"

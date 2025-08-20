@@ -1,0 +1,4 @@
+rules:
+  - name: aws_secret_access_key
+    regex: "AKIA[0-9A-Z]{16}"
+    severity: high
