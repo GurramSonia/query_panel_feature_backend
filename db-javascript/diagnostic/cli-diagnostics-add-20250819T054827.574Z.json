@@ -1,0 +1,1 @@
+{"timestamp":"2025-08-19T11:18:27.5719072+05:30","source":{"id":"cli/database/finalize","name":"CodeQL CLI: database finalize"},"plaintextMessage":"A fatal error occurred: Database D:\\Users\\gsonia\\Desktop\\panel_query_backend\\db-javascript is already finalized.","severity":"error","visibility":{"telemetry":false},"attributes":{"exitCode":2}}

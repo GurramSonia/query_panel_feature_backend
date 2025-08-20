@@ -1,0 +1,4 @@
+patterns:
+  - name: AWS Secret Key (loose match)
+    regex: AWS_SECRET_ACCESS_KEY\s*=\s*[A-Z0-9]+
+    severity: HIGH

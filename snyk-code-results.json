@@ -1,0 +1,5 @@
+{
+  "ok": false,
+  "error": "unable to retrieve settings: Get \"https://api.snyk.io/v1/cli-config/settings/sast?org=\": dial tcp: lookup api.snyk.io: no such host",
+  "path": "D:\\Users\\gsonia\\Desktop\\panel_query_backend"
+}
