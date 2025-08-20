@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  guac:
+    image: ghcr.io/guac-dev/guac:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - GUAC_STORAGE=sqlite
+      - GUAC_STORAGE_SQLITE_PATH=/data/guac.db
+    volumes:
+      - guac_data:/data
+volumes:
+  guac_data:

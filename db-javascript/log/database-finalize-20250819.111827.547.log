@@ -1,0 +1,13 @@
+[2025-08-19 11:18:27] This is codeql database finalize db-javascript
+[2025-08-19 11:18:27] Log file was started late.
+[2025-08-19 11:18:27] Exception caught at top level: Database D:\Users\gsonia\Desktop\panel_query_backend\db-javascript is already finalized.
+                      com.semmle.cli2.database.FinalizeCommand.finalizeOne(FinalizeCommand.java:149)
+                      com.semmle.cli2.database.FinalizeCommand.executeSubcommand(FinalizeCommand.java:122)
+                      com.semmle.cli2.picocli.SubcommandCommon.lambda$executeSubcommandWithMessages$5(SubcommandCommon.java:892)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:444)
+                      com.semmle.cli2.picocli.SubcommandCommon.executeSubcommandWithMessages(SubcommandCommon.java:890)
+                      com.semmle.cli2.picocli.SubcommandCommon.toplevelMain(SubcommandCommon.java:777)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:757)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:238)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:259)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:113)

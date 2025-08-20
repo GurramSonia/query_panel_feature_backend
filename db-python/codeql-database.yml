@@ -1,0 +1,46 @@
+---
+sourceLocationPrefix: D:\Users\gsonia\Desktop\panel_query_backend
+baselineLinesOfCode: 71892
+unicodeNewlines: false
+columnKind: utf32
+primaryLanguage: python
+inProgress:
+  primaryLanguage: python
+  installedExtractors:
+    actions:
+     - C:/tools/codeql/actions
+    cpp:
+     - C:/tools/codeql/cpp
+    csharp:
+     - C:/tools/codeql/csharp
+    csv:
+     - C:/tools/codeql/csv
+    go:
+     - C:/tools/codeql/go
+    html:
+     - C:/tools/codeql/html
+    java:
+     - C:/tools/codeql/java
+    javascript:
+     - C:/tools/codeql/javascript
+    properties:
+     - C:/tools/codeql/properties
+    python:
+     - C:/tools/codeql/python
+    ruby:
+     - C:/tools/codeql/ruby
+    rust:
+     - C:/tools/codeql/rust
+    swift:
+     - C:/tools/codeql/swift
+    xml:
+     - C:/tools/codeql/xml
+    yaml:
+     - C:/tools/codeql/yaml
+creationMetadata:
+  sha: 329dfe50378a215e3bb0c8b761afc558a6ade0b0
+  cliVersion: 2.22.3
+  creationTime: 2025-08-19T05:26:42.987399300Z
+overlayBaseDatabase: false
+finalised: false
+overlayDatabase: false

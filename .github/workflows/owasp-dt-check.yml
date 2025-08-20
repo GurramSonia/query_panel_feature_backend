@@ -1,0 +1,33 @@
+name: Dependency Track Upload
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  dependency-check:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run SBOM or Dependency-Track API call
+        run: echo "This will run on your local runner"
+  sbom:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Generate SBOM with Syft
+        uses: anchore/sbom-action@v0.14.3
+        with:
+          output-file: sbom.json
+          format: cyclonedx-json
+
+      - name: Upload SBOM to Dependency-Track
+        uses: Quobis/action-owasp-dependency-track-check@main
+        with:
+          apiKey: odt_3A60sYca_mTyg2OuJdMhntca4Oc6CxGGjy0RHS9p8
+          serverUrl: http://localhost:8081
+          projectName: my-app
+          bomPath: sbom.json
