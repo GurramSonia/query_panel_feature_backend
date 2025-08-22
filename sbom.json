@@ -1,0 +1,461 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:75d4ae82-6080-4980-bfd6-b012019f525c",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-21T06:18:49+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.63.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "b96ac2ee-7c61-4040-9dc1-86b08a8e569a",
+      "type": "application",
+      "name": ".",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "00a52339-ac1c-40b0-9646-60a4ad4622b9",
+      "type": "library",
+      "name": "Werkzeug",
+      "version": "2.3.7",
+      "purl": "pkg:pypi/werkzeug@2.3.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "04763f39-7e89-4312-936e-066b28f70c4a",
+      "type": "library",
+      "name": "Flask",
+      "version": "2.3.3",
+      "purl": "pkg:pypi/flask@2.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "153e7e77-4902-469f-a63b-6d8ba8474574",
+      "type": "library",
+      "name": "Flask-PyMongo",
+      "version": "2.3.0",
+      "purl": "pkg:pypi/flask-pymongo@2.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "35919f47-db38-4e31-b912-44f2a411c0b0",
+      "type": "library",
+      "name": "SQLAlchemy",
+      "version": "1.4.41",
+      "purl": "pkg:pypi/sqlalchemy@1.4.41",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "394cdb32-72e7-427d-ba39-30cdbd022b68",
+      "type": "library",
+      "name": "Werkzeug",
+      "version": "2.3.7",
+      "purl": "pkg:pypi/werkzeug@2.3.7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6ace6eb1-196a-4a0e-9de3-435a94ab6bdc",
+      "type": "library",
+      "name": "Flask-CORS",
+      "version": "5.0.0",
+      "purl": "pkg:pypi/flask-cors@5.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7b208aa9-ee2a-43df-966a-5ea08719ecce",
+      "type": "library",
+      "name": "pymysql",
+      "version": "1.0.3",
+      "purl": "pkg:pypi/pymysql@1.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "7b913ef3-907d-487e-bf9e-970bcc768634",
+      "type": "library",
+      "name": "SQLAlchemy",
+      "version": "1.4.41",
+      "purl": "pkg:pypi/sqlalchemy@1.4.41",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "94c791e9-0bb4-4695-b41d-80dd2c7065c0",
+      "type": "library",
+      "name": "python-dotenv",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/python-dotenv@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9cb1d967-2b25-40b3-b4af-c2f163539405",
+      "type": "library",
+      "name": "Flask-CORS",
+      "version": "5.0.0",
+      "purl": "pkg:pypi/flask-cors@5.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9d59f03d-5980-4ae9-8eab-e87b498db6e8",
+      "type": "library",
+      "name": "python-dotenv",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/python-dotenv@1.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "9d791879-35bc-413e-a903-319e5f505f1b",
+      "type": "library",
+      "name": "pymysql",
+      "version": "1.0.3",
+      "purl": "pkg:pypi/pymysql@1.0.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a1a96e92-e06d-4487-8e2e-cb9ca93cff92",
+      "type": "library",
+      "name": "Flask-Mail",
+      "version": "0.9.1",
+      "purl": "pkg:pypi/flask-mail@0.9.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a5491d94-6ad6-4842-9369-cea2361c196d",
+      "type": "library",
+      "name": "Flask-Login",
+      "version": "0.6.2",
+      "purl": "pkg:pypi/flask-login@0.6.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ae634c6a-a632-4b46-aa21-cebf45e6e6d1",
+      "type": "library",
+      "name": "Flask",
+      "version": "2.3.3",
+      "purl": "pkg:pypi/flask@2.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "b16ef6ff-9df1-4555-aa03-43ad2e6e1fd2",
+      "type": "library",
+      "name": "Flask-SQLAlchemy",
+      "version": "3.0.0",
+      "purl": "pkg:pypi/flask-sqlalchemy@3.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "bc3b7a8f-2bb9-437e-800b-db630abba2a9",
+      "type": "library",
+      "name": "Flask-SQLAlchemy",
+      "version": "3.0.0",
+      "purl": "pkg:pypi/flask-sqlalchemy@3.0.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c4d08c43-2ed5-4ac5-aab9-9e9423fca547",
+      "type": "application",
+      "name": "requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "c74a0df9-ac67-4e3d-9272-406c618e011e",
+      "type": "application",
+      "name": "src/requirements.txt",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dce7679e-ce32-408f-aeee-597d65af77e3",
+      "type": "library",
+      "name": "Flask-Mail",
+      "version": "0.9.1",
+      "purl": "pkg:pypi/flask-mail@0.9.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "f86f0fe5-7d25-47df-8d2f-3160b2f46c18",
+      "type": "library",
+      "name": "Flask-PyMongo",
+      "version": "2.3.0",
+      "purl": "pkg:pypi/flask-pymongo@2.3.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "fdf48f4a-c865-483c-8c16-761898369b01",
+      "type": "library",
+      "name": "Flask-Login",
+      "version": "0.6.2",
+      "purl": "pkg:pypi/flask-login@0.6.2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask-restx@1.1.0",
+      "type": "library",
+      "name": "Flask-RESTx",
+      "version": "1.1.0",
+      "purl": "pkg:pypi/flask-restx@1.1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pip"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "00a52339-ac1c-40b0-9646-60a4ad4622b9",
+      "dependsOn": []
+    },
+    {
+      "ref": "04763f39-7e89-4312-936e-066b28f70c4a",
+      "dependsOn": []
+    },
+    {
+      "ref": "153e7e77-4902-469f-a63b-6d8ba8474574",
+      "dependsOn": []
+    },
+    {
+      "ref": "35919f47-db38-4e31-b912-44f2a411c0b0",
+      "dependsOn": []
+    },
+    {
+      "ref": "394cdb32-72e7-427d-ba39-30cdbd022b68",
+      "dependsOn": []
+    },
+    {
+      "ref": "6ace6eb1-196a-4a0e-9de3-435a94ab6bdc",
+      "dependsOn": []
+    },
+    {
+      "ref": "7b208aa9-ee2a-43df-966a-5ea08719ecce",
+      "dependsOn": []
+    },
+    {
+      "ref": "7b913ef3-907d-487e-bf9e-970bcc768634",
+      "dependsOn": []
+    },
+    {
+      "ref": "94c791e9-0bb4-4695-b41d-80dd2c7065c0",
+      "dependsOn": []
+    },
+    {
+      "ref": "9cb1d967-2b25-40b3-b4af-c2f163539405",
+      "dependsOn": []
+    },
+    {
+      "ref": "9d59f03d-5980-4ae9-8eab-e87b498db6e8",
+      "dependsOn": []
+    },
+    {
+      "ref": "9d791879-35bc-413e-a903-319e5f505f1b",
+      "dependsOn": []
+    },
+    {
+      "ref": "a1a96e92-e06d-4487-8e2e-cb9ca93cff92",
+      "dependsOn": []
+    },
+    {
+      "ref": "a5491d94-6ad6-4842-9369-cea2361c196d",
+      "dependsOn": []
+    },
+    {
+      "ref": "ae634c6a-a632-4b46-aa21-cebf45e6e6d1",
+      "dependsOn": []
+    },
+    {
+      "ref": "b16ef6ff-9df1-4555-aa03-43ad2e6e1fd2",
+      "dependsOn": []
+    },
+    {
+      "ref": "b96ac2ee-7c61-4040-9dc1-86b08a8e569a",
+      "dependsOn": [
+        "c4d08c43-2ed5-4ac5-aab9-9e9423fca547",
+        "c74a0df9-ac67-4e3d-9272-406c618e011e"
+      ]
+    },
+    {
+      "ref": "bc3b7a8f-2bb9-437e-800b-db630abba2a9",
+      "dependsOn": []
+    },
+    {
+      "ref": "c4d08c43-2ed5-4ac5-aab9-9e9423fca547",
+      "dependsOn": [
+        "35919f47-db38-4e31-b912-44f2a411c0b0",
+        "394cdb32-72e7-427d-ba39-30cdbd022b68",
+        "7b208aa9-ee2a-43df-966a-5ea08719ecce",
+        "9cb1d967-2b25-40b3-b4af-c2f163539405",
+        "9d59f03d-5980-4ae9-8eab-e87b498db6e8",
+        "ae634c6a-a632-4b46-aa21-cebf45e6e6d1",
+        "bc3b7a8f-2bb9-437e-800b-db630abba2a9",
+        "dce7679e-ce32-408f-aeee-597d65af77e3",
+        "f86f0fe5-7d25-47df-8d2f-3160b2f46c18",
+        "fdf48f4a-c865-483c-8c16-761898369b01",
+        "pkg:pypi/flask-restx@1.1.0"
+      ]
+    },
+    {
+      "ref": "c74a0df9-ac67-4e3d-9272-406c618e011e",
+      "dependsOn": [
+        "00a52339-ac1c-40b0-9646-60a4ad4622b9",
+        "04763f39-7e89-4312-936e-066b28f70c4a",
+        "153e7e77-4902-469f-a63b-6d8ba8474574",
+        "6ace6eb1-196a-4a0e-9de3-435a94ab6bdc",
+        "7b913ef3-907d-487e-bf9e-970bcc768634",
+        "94c791e9-0bb4-4695-b41d-80dd2c7065c0",
+        "9d791879-35bc-413e-a903-319e5f505f1b",
+        "a1a96e92-e06d-4487-8e2e-cb9ca93cff92",
+        "a5491d94-6ad6-4842-9369-cea2361c196d",
+        "b16ef6ff-9df1-4555-aa03-43ad2e6e1fd2"
+      ]
+    },
+    {
+      "ref": "dce7679e-ce32-408f-aeee-597d65af77e3",
+      "dependsOn": []
+    },
+    {
+      "ref": "f86f0fe5-7d25-47df-8d2f-3160b2f46c18",
+      "dependsOn": []
+    },
+    {
+      "ref": "fdf48f4a-c865-483c-8c16-761898369b01",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/flask-restx@1.1.0",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}

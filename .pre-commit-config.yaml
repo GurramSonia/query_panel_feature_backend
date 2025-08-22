@@ -4,4 +4,15 @@ repos:
     hooks:
       - id: semgrep
         args:
-          - --config=p/ci  # Quick scan preset rules
+          - --config=p/ci 
+  - repo: https://github.com/pypa/pip-audit
+    rev: v2.7.3   # Use latest stable release
+    hooks:
+      - id: pip-audit
+        args: ["--requirement", "requirements.txt"]
+
+
+
+
+  
+# Quick scan preset rules

@@ -98,6 +98,6 @@ spec:
       port: 5000
       targetPort: 5000
   #type: NodePort
-  #type: LoadBalancer
-  type: ClusterIP
+  type: LoadBalancer
+  #type: ClusterIP
   
